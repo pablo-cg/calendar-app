@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@types/react-big-calendar':
-    specifier: ^1.6.5
-    version: 1.6.5
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -28,6 +25,9 @@ devDependencies:
   '@types/react':
     specifier: ^18.2.15
     version: 18.2.24
+  '@types/react-big-calendar':
+    specifier: ^1.6.5
+    version: 1.6.5
   '@types/react-dom':
     specifier: ^18.2.7
     version: 18.2.8
@@ -643,7 +643,7 @@ packages:
 
   /@types/date-arithmetic@4.1.2:
     resolution: {integrity: sha512-QrXpK5SdmUq76yPpW1p4/4OtjBSaWjK9T03FD/01TRenIkToKBT+bDw2Y8vk/Bmy8jkiuHu6okVHPgHuyiZEqQ==}
-    dev: false
+    dev: true
 
   /@types/prop-types@15.7.8:
     resolution: {integrity: sha512-kMpQpfZKSCBqltAJwskgePRaYRFukDkm1oItcAbC3gNELR20XIBcN9VRgg4+m8DKsTfkWeA4m4Imp4DDuWy7FQ==}
@@ -654,7 +654,7 @@ packages:
       '@types/date-arithmetic': 4.1.2
       '@types/prop-types': 15.7.8
       '@types/react': 18.2.24
-    dev: false
+    dev: true
 
   /@types/react-dom@18.2.8:
     resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
