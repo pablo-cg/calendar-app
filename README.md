@@ -15,3 +15,7 @@ pnpm install
 ```bash
 pnpm dev
 ```
+
+### Repositorio del Backend
+
+- [calendar-app-service](https://github.com/pablo-cg/calendar-app-service)
