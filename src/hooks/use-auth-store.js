@@ -6,6 +6,7 @@ import {
   onLogin,
   onLogout,
 } from '../store/auth/auth-slice';
+import { onResetState } from '../store/calendar/calendar-slice';
 
 export const useAuthStore = () => {
   const { status, user, errorMessage } = useSelector((state) => state.auth);
@@ -82,6 +83,7 @@ export const useAuthStore = () => {
   function startLogout() {
     localStorage.clear();
     dispatch(onLogout());
+    dispatch(onResetState());
   }
 
   return {
