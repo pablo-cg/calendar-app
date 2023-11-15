@@ -8,6 +8,7 @@ import { useCalendarStore, useUIStore } from '../../hooks';
 
 import 'react-datepicker/dist/react-datepicker.css';
 import 'sweetalert2/dist/sweetalert2.min.css';
+import { getEnvVariables } from '../../helpers';
 
 const modalStyles = {
   content: {
@@ -20,7 +21,9 @@ const modalStyles = {
   },
 };
 
-Modal.setAppElement('#root');
+if (getEnvVariables().VITE_MODE !== 'test') {
+  Modal.setAppElement('#root');
+}
 
 registerLocale('es', es);
 

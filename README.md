@@ -1,4 +1,4 @@
-# React Calendar App
+# React PWA Calendar App
 
 ## Modo Desarrollo
 
