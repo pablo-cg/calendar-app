@@ -1,6 +1,6 @@
 export function getEnvVariables() {
-  import.meta.env;
+  const meta = import.meta.env;
   return {
-    ...import.meta.env,
+    ...meta,
   };
 }
